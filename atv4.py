@@ -7,7 +7,7 @@ def segundo_maior(lista):
     
     return max(lista_filtrada)
 
-# Exemplo de uso
+
 lista = [10, 20, 4, 45, 99, 99]
 resultado = segundo_maior(lista)
 print(resultado)

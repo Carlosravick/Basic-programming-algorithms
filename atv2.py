@@ -2,9 +2,9 @@ def primos(lista):
     primo = []
     for num in lista:
         if num < 2:
-            continue  # Números menores que 2 não são primos
+            continue  
         is_primo = True
-        for i in range(2, int(num**0.5) + 1):  # Verifica até a raiz quadrada de num
+        for i in range(2, int(num**0.5) + 1): 
             if num % i == 0:
                 is_primo = False
                 break
